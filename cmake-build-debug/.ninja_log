@@ -1,0 +1,23 @@
+# ninja log v5
+3	602	1670627335512785190	CMakeFiles/Portfolio.dir/main.cpp.o	4a423bfcbef4fd91
+2	409	1670544713054589519	CMakeFiles/Portfolio.dir/EventHandleable.cpp.o	7063ae53a0980bf3
+2	301	1670613058184385909	CMakeFiles/Portfolio.dir/BouncingBall.cpp.o	d286c13762a644c8
+4	459	1670627335377670610	CMakeFiles/Portfolio.dir/Projects/PingPong/PongBall.cpp.o	35c7ce998b1acbf0
+0	5	0	/Users/rainawan/CLionProjects/CS3A/Portfolio/cmake-build-debug/CMakeFiles/cmake.verify_globs	23a9da5b4cdddd47
+3	331	1670627402701139763	CMakeFiles/Portfolio.dir/Projects/PingPong/Pong.cpp.o	64403fb8ea6aa670
+331	363	1670627402734279748	Portfolio	346f677585937398
+3	460	1670568963746570343	CMakeFiles/Portfolio.dir/SFMLTools/EventHandleable.cpp.o	b04a118f42971277
+2	492	1670568963779625991	CMakeFiles/Portfolio.dir/SFMLTools/Component.cpp.o	1e03f175f1cbaa1a
+2	567	1670613889474825760	CMakeFiles/Portfolio.dir/Projects/BouncingBall.cpp.o	112163e73e6f9e48
+4	525	1670627335443110797	CMakeFiles/Portfolio.dir/Projects/Ball.cpp.o	8a04d4e54a93fa24
+3	599	1670627335511674493	CMakeFiles/Portfolio.dir/Games.cpp.o	3975c675f61aaf1f
+8	169	1670650123097616143	build.ninja	e72949bdc942d991
+2	334	1670612965021849522	CMakeFiles/Portfolio.dir/SFMLTools/Application.cpp.o	d31de78ec8df210e
+0	29	1670544699183774309	CMakeFiles/Portfolio.dir/Application.cpp.o	a051b415764e7eb4
+2	321	1670614946135360532	CMakeFiles/Portfolio.dir/Projects/TopHatGuy.cpp.o	7c0af462df443dd2
+5	547	1670627335465414896	CMakeFiles/Portfolio.dir/Projects/PingPong/Paddle.cpp.o	f17b8821c4b525b9
+0	12	0	/Users/rainawan/CLionProjects/CS3A/Portfolio/cmake-build-debug/CMakeFiles/cmake.verify_globs	23a9da5b4cdddd47
+3	31	1670650570595902292	CMakeFiles/Portfolio.dir/Screens.cpp.o	fa0399a3df13f936
+3	32	1670650570595902167	CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o	86dc5cb28d2135eb
+32	243	1670650570808399274	Portfolio	3f16ccbd741e901e
+0	7	0	/Users/rainawan/CLionProjects/CS3A/Portfolio/cmake-build-debug/CMakeFiles/cmake.verify_globs	23a9da5b4cdddd47
