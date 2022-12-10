@@ -53,13 +53,6 @@ build CMakeFiles/Portfolio.dir/Games.cpp.o: CXX_COMPILER__Portfolio_Debug /Users
   OBJECT_DIR = CMakeFiles/Portfolio.dir
   OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir
 
-build CMakeFiles/Portfolio.dir/Screens.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Screens.cpp || cmake_object_order_depends_target_Portfolio
-  DEP_FILE = CMakeFiles/Portfolio.dir/Screens.cpp.o.d
-  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
-  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
-  OBJECT_DIR = CMakeFiles/Portfolio.dir
-  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir
-
 build CMakeFiles/Portfolio.dir/main.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/main.cpp || cmake_object_order_depends_target_Portfolio
   DEP_FILE = CMakeFiles/Portfolio.dir/main.cpp.o.d
   FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
@@ -88,26 +81,26 @@ build CMakeFiles/Portfolio.dir/SFMLTools/EventHandleable.cpp.o: CXX_COMPILER__Po
   OBJECT_DIR = CMakeFiles/Portfolio.dir
   OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/SFMLTools
 
-build CMakeFiles/Portfolio.dir/Projects/BouncingBall.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/BouncingBall.cpp || cmake_object_order_depends_target_Portfolio
-  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/BouncingBall.cpp.o.d
+build CMakeFiles/Portfolio.dir/Projects/BouncingBall/BouncingBall.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/BouncingBall/BouncingBall.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/BouncingBall/BouncingBall.cpp.o.d
   FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/Portfolio.dir
-  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/BouncingBall
 
-build CMakeFiles/Portfolio.dir/Projects/Ball.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Ball.cpp || cmake_object_order_depends_target_Portfolio
-  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Ball.cpp.o.d
+build CMakeFiles/Portfolio.dir/Projects/Ball/Ball.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Ball/Ball.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Ball/Ball.cpp.o.d
   FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/Portfolio.dir
-  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Ball
 
-build CMakeFiles/Portfolio.dir/Projects/TopHatGuy.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/TopHatGuy.cpp || cmake_object_order_depends_target_Portfolio
-  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/TopHatGuy.cpp.o.d
+build CMakeFiles/Portfolio.dir/Projects/TopHatGuy/TopHatGuy.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/TopHatGuy/TopHatGuy.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/TopHatGuy/TopHatGuy.cpp.o.d
   FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/Portfolio.dir
-  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/TopHatGuy
 
 build CMakeFiles/Portfolio.dir/Projects/PingPong/Pong.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/PingPong/Pong.cpp || cmake_object_order_depends_target_Portfolio
   DEP_FILE = CMakeFiles/Portfolio.dir/Projects/PingPong/Pong.cpp.o.d
@@ -130,12 +123,47 @@ build CMakeFiles/Portfolio.dir/Projects/PingPong/Paddle.cpp.o: CXX_COMPILER__Por
   OBJECT_DIR = CMakeFiles/Portfolio.dir
   OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/PingPong
 
+build CMakeFiles/Portfolio.dir/Projects/Applications/Screens.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Applications/Screens.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Applications/Screens.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Applications
+
 build CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/SFMLTools/MouseEvent.cpp || cmake_object_order_depends_target_Portfolio
   DEP_FILE = CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o.d
   FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/Portfolio.dir
   OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/SFMLTools
+
+build CMakeFiles/Portfolio.dir/Projects/Applications/States.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Applications/States.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Applications/States.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Applications
+
+build CMakeFiles/Portfolio.dir/Projects/Applications/Fonts.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Applications/Fonts.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Applications/Fonts.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Applications
+
+build CMakeFiles/Portfolio.dir/Projects/Applications/Position.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Applications/Position.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Applications/Position.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Applications
+
+build CMakeFiles/Portfolio.dir/Projects/Applications/ListItem.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Applications/ListItem.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Applications/ListItem.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Applications
 
 
 # =============================================================================
@@ -145,7 +173,7 @@ build CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o: CXX_COMPILER__Portfol
 #############################################
 # Link the executable Portfolio
 
-build Portfolio: CXX_EXECUTABLE_LINKER__Portfolio_Debug CMakeFiles/Portfolio.dir/Games.cpp.o CMakeFiles/Portfolio.dir/Screens.cpp.o CMakeFiles/Portfolio.dir/main.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Component.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Application.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/EventHandleable.cpp.o CMakeFiles/Portfolio.dir/Projects/BouncingBall.cpp.o CMakeFiles/Portfolio.dir/Projects/Ball.cpp.o CMakeFiles/Portfolio.dir/Projects/TopHatGuy.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Pong.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/PongBall.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Paddle.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-network.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+build Portfolio: CXX_EXECUTABLE_LINKER__Portfolio_Debug CMakeFiles/Portfolio.dir/Games.cpp.o CMakeFiles/Portfolio.dir/main.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Component.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Application.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/EventHandleable.cpp.o CMakeFiles/Portfolio.dir/Projects/BouncingBall/BouncingBall.cpp.o CMakeFiles/Portfolio.dir/Projects/Ball/Ball.cpp.o CMakeFiles/Portfolio.dir/Projects/TopHatGuy/TopHatGuy.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Pong.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/PongBall.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Paddle.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Screens.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/States.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Fonts.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Position.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/ListItem.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-network.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib  /opt/homebrew/lib/libsfml-audio.2.5.1.dylib  /opt/homebrew/lib/libsfml-network.2.5.1.dylib  /opt/homebrew/lib/libsfml-window.2.5.1.dylib  /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   OBJECT_DIR = CMakeFiles/Portfolio.dir

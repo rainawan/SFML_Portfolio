@@ -5,8 +5,8 @@
 #ifndef PORTFOLIO_BOUNCINGBALL_H
 #define PORTFOLIO_BOUNCINGBALL_H
 
-#include "../SFMLTools/Component.h"
-#include "../SFMLTools/Application.h"
+#include "../../SFMLTools/Component.h"
+#include "../../SFMLTools/Application.h"
 #include <SFML/Graphics.hpp>
 
 class BouncingBall : public Component, public Application {

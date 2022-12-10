@@ -6,8 +6,8 @@
 #define PORTFOLIO_BALL_H
 
 #include <SFML/Graphics.hpp>
-#include "../SFMLTools/Component.h"
-#include "../SFMLTools/Application.h"
+#include "../../SFMLTools/Component.h"
+#include "../../SFMLTools/Application.h"
 
 class Ball : public Component, public Application {
 private:

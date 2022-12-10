@@ -6,7 +6,6 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/rainawan/CLionProjects/CS3A/Portfolio/*.cpp")
 set(OLD_GLOB
   "/Users/rainawan/CLionProjects/CS3A/Portfolio/Games.cpp"
-  "/Users/rainawan/CLionProjects/CS3A/Portfolio/Screens.cpp"
   "/Users/rainawan/CLionProjects/CS3A/Portfolio/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -18,7 +17,6 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/rainawan/CLionProjects/CS3A/Portfolio/*.h")
 set(OLD_GLOB
   "/Users/rainawan/CLionProjects/CS3A/Portfolio/Games.h"
-  "/Users/rainawan/CLionProjects/CS3A/Portfolio/Screens.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

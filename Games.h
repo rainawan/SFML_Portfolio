@@ -6,12 +6,13 @@
 #define PORTFOLIO_GAMES_H
 
 
-#include "SFMLTools/Application.h"
-#include "Projects/Ball.h"
-#include "Projects/BouncingBall.h"
-#include "Projects/PingPong/Pong.h"
-#include "Projects/TopHatGuy.h"
 #include <iostream>
+#include "SFMLTools/Application.h"
+#include "Projects/Ball/Ball.h"
+#include "Projects/BouncingBall/BouncingBall.h"
+#include "Projects/PingPong/Pong.h"
+#include "Projects/TopHatGuy/TopHatGuy.h"
+#include "Projects/Applications/Screens.h"
 
 class Games : public Application {
 private:
@@ -19,6 +20,7 @@ private:
     BouncingBall bouncing_ball;
     Pong pong;
     TopHatGuy top_hat_guy;
+    Screens screen;
 public:
     Games();
 };

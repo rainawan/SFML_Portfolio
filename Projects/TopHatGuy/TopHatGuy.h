@@ -7,8 +7,8 @@
 
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#include "../SFMLTools/Component.h"
-#include "../SFMLTools/Application.h"
+#include "../../SFMLTools/Component.h"
+#include "../../SFMLTools/Application.h"
 
 class TopHatGuy : public Component, public Application {
 private:
