@@ -5,5 +5,6 @@
 #include "Games.h"
 
 Games::Games() {
-    addComponent(screen);
+//    addComponent(screen);
+
 }

@@ -3,6 +3,7 @@
 #include "SFMLTools/Application.h"
 #include "Projects/BouncingBall/BouncingBall.h"
 #include "Games.h"
+#include "Projects/BouncingBall/BouncingBall.h"
 
 int main() {
 
