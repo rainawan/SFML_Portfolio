@@ -39,10 +39,12 @@ void Screens::eventHandler(sf::RenderWindow &window, sf::Event event) {
 
     screens.emplace_back(ball, "Screens " + std::to_string(1),
                          "Button " + std::to_string(1), BALL);
+    bouncing_ball.eventHandler(window, event);
     screens.emplace_back(bouncing_ball, "Screens " + std::to_string(2),
                          "Button " + std::to_string(2), BOUNCING_BALL);
-    screens.emplace_back(top_hat_guy, "Screens " + std::to_string(4),
-                         "Button " + std::to_string(4), TOP_HAT_GUY);
+
+//    screens.emplace_back(top_hat_guy, "Screens " + std::to_string(4),
+//                         "Button " + std::to_string(4), TOP_HAT_GUY);
 
     auto iter = screens.begin();
 
@@ -62,6 +64,7 @@ void Screens::eventHandler(sf::RenderWindow &window, sf::Event event) {
                     ++iter;
             }
         }
+
         window.clear(sf::Color::Transparent);
         window.draw(*iter);
         window.display();
@@ -69,9 +72,9 @@ void Screens::eventHandler(sf::RenderWindow &window, sf::Event event) {
 }
 
 void Screens::draw(sf::RenderTarget &target, sf::RenderStates states) const {
-    if (checkState(BALL)) {target.draw(ball);}
-    if(checkState(BOUNCING_BALL)) {target.draw(bouncing_ball);}
-    if(checkState(TOP_HAT_GUY)) {target.draw(top_hat_guy);}
+    if (getState(BALL)) {target.draw(ball);}
+    if(getState(BOUNCING_BALL)) {target.draw(bouncing_ball);}
+    if(getState(TOP_HAT_GUY)) {target.draw(top_hat_guy);}
     target.draw(text);
     target.draw(button);
 }

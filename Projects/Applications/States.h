@@ -14,7 +14,7 @@ private:
     void load();
 public:
     States();
-    bool checkState(states_enum state) const;
+    bool getState(states_enum state) const;
     void enableState(states_enum state); //will make state true inside map
     void disableState(states_enum state); //will set state to false
     void setState(states_enum state, bool value);

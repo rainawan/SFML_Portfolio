@@ -12,6 +12,9 @@
 #include "Projects/BouncingBall/BouncingBall.h"
 #include "Projects/PingPong/Pong.h"
 #include "Projects/TopHatGuy/TopHatGuy.h"
+#include "Projects/Card/Card_Main.h"
+#include "Projects/Poker/Poker.h"
+#include "Projects/Battleship/Battleship.h"
 #include "Projects/Applications/Screens.h"
 
 class Games : public Application {
@@ -20,6 +23,9 @@ private:
     BouncingBall bouncing_ball;
     Pong pong;
     TopHatGuy top_hat_guy;
+    Card_Main card;
+    Poker poker;
+    Battleship battleship;
     Screens screen;
 public:
     Games();

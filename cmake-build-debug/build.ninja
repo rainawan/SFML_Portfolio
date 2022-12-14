@@ -165,6 +165,160 @@ build CMakeFiles/Portfolio.dir/Projects/Applications/ListItem.cpp.o: CXX_COMPILE
   OBJECT_DIR = CMakeFiles/Portfolio.dir
   OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Applications
 
+build CMakeFiles/Portfolio.dir/Projects/Card/Card.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Card/Card.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Card/Card.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Card
+
+build CMakeFiles/Portfolio.dir/Projects/Card/Card_Main.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Card/Card_Main.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Card/Card_Main.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Card
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/Poker.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/Poker.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/Poker.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/PokerCard.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/PokerCard.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/PokerCard.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/DrawableCard.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/DrawableCard.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/DrawableCard.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/Deck.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/Deck.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/Deck.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/CardHand.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/CardHand.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/CardHand.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/PokerScore.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/PokerScore.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/PokerScore.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/CardHandScorer.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/CardHandScorer.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/CardHandScorer.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Poker/DrawableScore.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Poker/DrawableScore.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Poker/DrawableScore.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Poker
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Battleship.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Battleship.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Battleship.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/BombSprite.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/BombSprite.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/BombSprite.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Images.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/Images.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Images.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/OceanSprite.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/OceanSprite.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/OceanSprite.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship1Sprite.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/Ship1Sprite.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship1Sprite.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship2Sprite.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/Ship2Sprite.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship2Sprite.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship3Sprite.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/Ship3Sprite.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship3Sprite.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship4Sprite.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/Ship4Sprite.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship4Sprite.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/MissSprite.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Sprites/MissSprite.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/MissSprite.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Square.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Square.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Square.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/Grid.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/Grid.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/Grid.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship
+
+build CMakeFiles/Portfolio.dir/Projects/Battleship/HiddenGrid.cpp.o: CXX_COMPILER__Portfolio_Debug /Users/rainawan/CLionProjects/CS3A/Portfolio/Projects/Battleship/HiddenGrid.cpp || cmake_object_order_depends_target_Portfolio
+  DEP_FILE = CMakeFiles/Portfolio.dir/Projects/Battleship/HiddenGrid.cpp.o.d
+  FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/Portfolio.dir
+  OBJECT_FILE_DIR = CMakeFiles/Portfolio.dir/Projects/Battleship
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Portfolio
@@ -173,7 +327,7 @@ build CMakeFiles/Portfolio.dir/Projects/Applications/ListItem.cpp.o: CXX_COMPILE
 #############################################
 # Link the executable Portfolio
 
-build Portfolio: CXX_EXECUTABLE_LINKER__Portfolio_Debug CMakeFiles/Portfolio.dir/Games.cpp.o CMakeFiles/Portfolio.dir/main.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Component.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Application.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/EventHandleable.cpp.o CMakeFiles/Portfolio.dir/Projects/BouncingBall/BouncingBall.cpp.o CMakeFiles/Portfolio.dir/Projects/Ball/Ball.cpp.o CMakeFiles/Portfolio.dir/Projects/TopHatGuy/TopHatGuy.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Pong.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/PongBall.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Paddle.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Screens.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/States.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Fonts.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Position.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/ListItem.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-network.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+build Portfolio: CXX_EXECUTABLE_LINKER__Portfolio_Debug CMakeFiles/Portfolio.dir/Games.cpp.o CMakeFiles/Portfolio.dir/main.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Component.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/Application.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/EventHandleable.cpp.o CMakeFiles/Portfolio.dir/Projects/BouncingBall/BouncingBall.cpp.o CMakeFiles/Portfolio.dir/Projects/Ball/Ball.cpp.o CMakeFiles/Portfolio.dir/Projects/TopHatGuy/TopHatGuy.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Pong.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/PongBall.cpp.o CMakeFiles/Portfolio.dir/Projects/PingPong/Paddle.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Screens.cpp.o CMakeFiles/Portfolio.dir/SFMLTools/MouseEvent.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/States.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Fonts.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/Position.cpp.o CMakeFiles/Portfolio.dir/Projects/Applications/ListItem.cpp.o CMakeFiles/Portfolio.dir/Projects/Card/Card.cpp.o CMakeFiles/Portfolio.dir/Projects/Card/Card_Main.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/Poker.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/PokerCard.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/DrawableCard.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/Deck.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/CardHand.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/PokerScore.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/CardHandScorer.cpp.o CMakeFiles/Portfolio.dir/Projects/Poker/DrawableScore.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Battleship.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/BombSprite.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Images.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/OceanSprite.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship1Sprite.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship2Sprite.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship3Sprite.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/Ship4Sprite.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Sprites/MissSprite.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Square.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/Grid.cpp.o CMakeFiles/Portfolio.dir/Projects/Battleship/HiddenGrid.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-network.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   FLAGS = -std=c++11 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib  /opt/homebrew/lib/libsfml-audio.2.5.1.dylib  /opt/homebrew/lib/libsfml-network.2.5.1.dylib  /opt/homebrew/lib/libsfml-window.2.5.1.dylib  /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   OBJECT_DIR = CMakeFiles/Portfolio.dir

@@ -14,7 +14,7 @@ void States::load() {
     }
 }
 
-bool States::checkState(states_enum state) const {
+bool States::getState(states_enum state) const {
     return map.at(state);
 }
 

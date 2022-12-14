@@ -30,6 +30,7 @@ public:
     Screens(Ball ball, std::string text, std::string buttonText, states_enum state);
     Screens(BouncingBall bouncing_ball, std::string text, std::string buttonText, states_enum state);
     Screens(TopHatGuy top_hat_guy, std::string text, std::string buttonText, states_enum state);
+
     void set_button(sf::Text text, ListItem button);
     virtual void eventHandler(sf::RenderWindow &window, sf::Event event) override;
 protected:

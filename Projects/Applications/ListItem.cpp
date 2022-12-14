@@ -54,7 +54,7 @@ void ListItem::setTextSize(unsigned int size) {
 }
 
 void ListItem::draw(sf::RenderTarget &target, sf::RenderStates states) const {
-    if(!checkState(HIDDEN)) { //only draw if not hidden
+    if(!getState(HIDDEN)) { //only draw if not hidden
         target.draw(box);
         target.draw(text);
     }

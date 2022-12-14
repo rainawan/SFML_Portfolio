@@ -12,7 +12,7 @@ Pong::Pong() {
 }
 
 void Pong::eventHandler(sf::RenderWindow &window, sf::Event event) {
-    window.setSize(sf::Vector2u(1500,1200));
+    window.setSize(sf::Vector2u(800,500));
 
     while(window.isOpen()) {
 
