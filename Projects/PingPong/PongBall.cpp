@@ -5,8 +5,8 @@
 #include "PongBall.h"
 
 PongBall::PongBall() {
-    circle.setRadius(30.0);
-    circle.setFillColor(sf::Color::Blue);
+    circle.setRadius(50.0);
+    circle.setFillColor(sf::Color(231, 84, 128));
     circle.setPosition(100,100);
 }
 
@@ -25,8 +25,9 @@ void PongBall::bounce(const sf::RenderWindow& window, Paddle paddleLeft, Paddle 
              || circle.getGlobalBounds().left <= paddleLeft.getGlobalBounds().width)
             && ((circle.getPosition().y >= paddleLeft.getPosition().y) && (circle.getPosition().y <= (paddleLeft.getPosition().y + paddleLeft.getSize().y)))
             && ((circle.getPosition().y >= paddleRight.getPosition().y) && (circle.getPosition().y <= (paddleRight.getPosition().y + paddleRight.getSize().y)))
-            )
+            ) {
         velocity.x = -velocity.x;
+    }
 }
 
 void PongBall::setVelocity(const sf::Vector2f& velocity) {

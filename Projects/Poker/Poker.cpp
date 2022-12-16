@@ -77,7 +77,11 @@ void Poker::eventHandler(sf::RenderWindow &window, sf::Event event) {
     }
 
 
-    while(window.isOpen()) {
+    while(window.isOpen() && gp::game_playing == POKER) {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num5))
+            gp::game_playing = CARD;
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num7))
+            gp::game_playing = BATTLESHIP;
         sf::Event event;
         while(window.pollEvent(event)) {
             if(sf::Event::Closed == event.type)

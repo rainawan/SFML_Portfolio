@@ -11,6 +11,7 @@
 #include "../../SFMLTools/Application.h"
 #include "Grid.h"
 #include "Sprites/OceanSprite.h"
+#include "../../Projects/Applications/States.h"
 
 class Battleship : public Component, public Application {
 public:

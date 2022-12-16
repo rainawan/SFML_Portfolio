@@ -6,7 +6,13 @@
 #define PORTFOLIO_STATES_H
 
 #include <map>
+#include <SFML/System/Clock.hpp>
 #include "states_enum.h"
+
+namespace gp{
+    extern states_enum game_playing;
+}
+
 
 class States {
 private:
@@ -14,6 +20,7 @@ private:
     void load();
 public:
     States();
+    sf::Clock clock;
     bool getState(states_enum state) const;
     void enableState(states_enum state); //will make state true inside map
     void disableState(states_enum state); //will set state to false

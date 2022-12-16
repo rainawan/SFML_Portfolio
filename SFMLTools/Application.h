@@ -9,6 +9,7 @@
 #include <string>
 #include <SFML/Graphics.hpp>
 #include "Component.h"
+#include <iostream>
 
 class Application {
 private:
@@ -20,6 +21,7 @@ public:
     Application(sf::VideoMode videoMode, const std::string& title);
     void addComponent(Component& component);
     void run();
+    virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const;
 };
 
 

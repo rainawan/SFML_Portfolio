@@ -5,7 +5,7 @@
 #include "Paddle.h"
 
 Paddle::Paddle() : sf::RectangleShape() {
-    setSize({40,200});
+    setSize({100,500});
 }
 
 void Paddle::shiftUp(const sf::RenderWindow& window) {

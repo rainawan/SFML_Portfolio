@@ -15,7 +15,7 @@
 #include "Projects/Card/Card_Main.h"
 #include "Projects/Poker/Poker.h"
 #include "Projects/Battleship/Battleship.h"
-#include "Projects/Applications/Screens.h"
+//#include "Projects/Applications/Screens.h"
 
 class Games : public Application {
 private:
@@ -26,7 +26,7 @@ private:
     Card_Main card;
     Poker poker;
     Battleship battleship;
-    Screens screen;
+//    Screens screen;
 public:
     Games();
 };

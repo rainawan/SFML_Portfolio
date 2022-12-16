@@ -15,17 +15,21 @@ TopHatGuy::TopHatGuy() {
 }
 
 void TopHatGuy::eventHandler(sf::RenderWindow &window, sf::Event event) {
-    window.setSize({1500,1200});
+    window.setSize({2600,1550});
     TopHatGuy guy;
     guy.setPosition(window.getSize().x / 2, window.getSize().y / 2);
 
-    while(window.isOpen()) {
+    while(window.isOpen() && gp::game_playing == TOP_HAT_GUY) {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num3))
+            gp::game_playing = PONG;
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num5))
+            gp::game_playing = CARD;
         sf::Event event;
         while(window.pollEvent(event)) {
             if(sf::Event::Closed == event.type)
                 window.close();
         }
-        window.clear(sf::Color(53,101,77));
+        window.clear(sf::Color(255,140,0));
         window.draw(guy);
         window.display();
     }

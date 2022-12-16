@@ -53,7 +53,7 @@ void Card::setPosition(float x, float y) {
 }
 
 void Card::flip() {
-
+    rank2.rotate(180);
 }
 
 std::string Card::rankToString() {
@@ -120,6 +120,7 @@ void Card::setupRank() {
     rank2.setFont(font);
     rank2.setString(rankToString());
     rank2.setCharacterSize(80);
+//    flip();
 }
 
 void Card::setupSuit() {

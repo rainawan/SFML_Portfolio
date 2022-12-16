@@ -12,7 +12,7 @@
 class PongBall : public sf::CircleShape {
 private:
     sf::CircleShape circle;
-    sf::Vector2f velocity = {5,5};
+    sf::Vector2f velocity = {8,8};
 public:
     PongBall();
     void bounce(const sf::RenderWindow& window, Paddle paddleLeft, Paddle paddleRight);

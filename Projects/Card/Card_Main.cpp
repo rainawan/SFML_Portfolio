@@ -13,13 +13,18 @@ void Card_Main::eventHandler(sf::RenderWindow &window, sf::Event event) {
 
     window.setFramerateLimit(60);
     Card c(CLUBS, SIX);
-    while(window.isOpen()) {
+    c.setPosition({500,500});
+    while(window.isOpen() && gp::game_playing == CARD) {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num4))
+            gp::game_playing = TOP_HAT_GUY;
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num6))
+            gp::game_playing = POKER;
         sf::Event event;
         while(window.pollEvent(event)) {
             if(sf::Event::Closed == event.type)
                 window.close();
         }
-        window.clear();
+        window.clear(sf::Color(166, 163, 186));
         window.draw(c);
         window.display();
     }

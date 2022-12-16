@@ -3,6 +3,7 @@
 //
 
 #include "States.h"
+namespace gp{states_enum game_playing = BALL;}
 
 States::States() {
     load();

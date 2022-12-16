@@ -29,16 +29,16 @@ void CardHandScorer::countHands() {
         }
     }
 
-    std::cout<< "Royal Flush: " << final_score[PokerScore::Scores::ROYAL_FLUSH] << std::endl;
-    std::cout<< "Straight Flush: " << final_score[PokerScore::Scores::STRAIGHT_FLUSH] << std::endl;
-    std::cout<< "Four of a kind: " << final_score[PokerScore::Scores::FOUR_OF_A_KIND] << std::endl;
-    std::cout<< "Full House: " << final_score[PokerScore::Scores::FULL_HOUSE] << std::endl;
-    std::cout<< "Flush: " << final_score[PokerScore::Scores::FLUSH] << std::endl;
-    std::cout<< "Straight: " << final_score[PokerScore::Scores::STRAIGHT] << std::endl;
-    std::cout<< "Three of a Kind: " << final_score[PokerScore::Scores::THREE_OK_A_KIND] << std::endl;
-    std::cout<< "Two Pair: " << final_score[PokerScore::Scores::TWO_PAIR] << std::endl;
-    std::cout<< "One Pair: " << final_score[PokerScore::Scores::ONE_PAIR] << std::endl;
-    std::cout<< "High Card: " << final_score[PokerScore::Scores::HIGH_CARD] << std::endl;
+//    std::cout<< "Royal Flush: " << final_score[PokerScore::Scores::ROYAL_FLUSH] << std::endl;
+//    std::cout<< "Straight Flush: " << final_score[PokerScore::Scores::STRAIGHT_FLUSH] << std::endl;
+//    std::cout<< "Four of a kind: " << final_score[PokerScore::Scores::FOUR_OF_A_KIND] << std::endl;
+//    std::cout<< "Full House: " << final_score[PokerScore::Scores::FULL_HOUSE] << std::endl;
+//    std::cout<< "Flush: " << final_score[PokerScore::Scores::FLUSH] << std::endl;
+//    std::cout<< "Straight: " << final_score[PokerScore::Scores::STRAIGHT] << std::endl;
+//    std::cout<< "Three of a Kind: " << final_score[PokerScore::Scores::THREE_OK_A_KIND] << std::endl;
+//    std::cout<< "Two Pair: " << final_score[PokerScore::Scores::TWO_PAIR] << std::endl;
+//    std::cout<< "One Pair: " << final_score[PokerScore::Scores::ONE_PAIR] << std::endl;
+//    std::cout<< "High Card: " << final_score[PokerScore::Scores::HIGH_CARD] << std::endl;
 
     int denominator;
     for (int hand_type = PokerScore::Scores::ROYAL_FLUSH; hand_type < PokerScore::NUM_HANDS; hand_type++) {
@@ -48,6 +48,6 @@ void CardHandScorer::countHands() {
         final_score[hand_type] /=  final_score[hand_type];
 
         ratio[hand_type] = std::to_string(final_score[hand_type]) + " : " + std::to_string(denominator);
-        std::cout << ratio[hand_type] << std::endl;
+//        std::cout << ratio[hand_type] << std::endl;
     }
 }

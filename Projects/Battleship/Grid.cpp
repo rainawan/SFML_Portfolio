@@ -4,8 +4,11 @@
 
 #include "Grid.h"
 
+sf::Font Grid::font;
+
 Grid::Grid() {
     makeGrid();
+    makeCoord();
 }
 
 void Grid::makeGrid() {
@@ -16,6 +19,15 @@ void Grid::makeGrid() {
         }
         board.push_back(row);
     }
+}
+
+void Grid::makeCoord() {
+//    letters[0].setString("A");
+//    if(!font.loadFromFile("Projects/Applications/fonts/lemon_milk/LEMONMILK-Bold.otf"))
+//        exit(20);
+//    letters[0].setFont(font);
+//    letters[0].setPosition({100,100});
+//    letters[0].setCharacterSize(100);
 }
 
 void Grid::setPosition(const sf::Vector2f &position) {
@@ -59,6 +71,7 @@ void Grid::draw(sf::RenderTarget &target, sf::RenderStates states) const {
         target.draw(ship3);
     if(hidden.check_sunk(hidden.ship4_life))
         target.draw(ship4);
+//    target.draw(letters[0]);
 }
 
 void Grid::eventHandler(sf::RenderWindow &window, sf::Event event) {

@@ -17,10 +17,12 @@ void Application::addComponent(Component &component) {
 }
 
 void Application::run() {
-    sf::RenderWindow window(videoMode,title);
 
+    sf::RenderWindow window({2600,1550,32},"PORTFOLIO");
+    window.setSize({2600,1550});
     window.setFramerateLimit(60);
     while(window.isOpen()) {
+
         sf::Event event;
         while(window.pollEvent(event)) {
             if(sf::Event::Closed == event.type)
@@ -37,4 +39,8 @@ void Application::run() {
 
         window.display();
     }
+}
+
+void Application::draw(sf::RenderTarget &target, sf::RenderStates states) const {
+
 }

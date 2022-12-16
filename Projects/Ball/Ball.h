@@ -8,12 +8,15 @@
 #include <SFML/Graphics.hpp>
 #include "../../SFMLTools/Component.h"
 #include "../../SFMLTools/Application.h"
+#include "../../Projects/Applications/states_enum.h"
+#include "../../Projects/Applications/States.h"
 
 class Ball : public Component, public Application {
 private:
     sf::CircleShape circle;
 public:
     Ball();
+    sf::Clock clock;
     virtual void eventHandler(sf::RenderWindow &window, sf::Event event) override;
 protected:
     virtual void draw(sf::RenderTarget &target, sf::RenderStates states) const override;

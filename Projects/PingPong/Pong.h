@@ -9,6 +9,7 @@
 #include <SFML/Graphics.hpp>
 #include "../../SFMLTools/Component.h"
 #include "../../SFMLTools/Application.h"
+#include "../../Projects/Applications/States.h"
 #include "PongBall.h"
 #include "Paddle.h"
 

@@ -9,6 +9,7 @@
 #include <SFML/Graphics.hpp>
 #include "../../SFMLTools/Component.h"
 #include "../../SFMLTools/Application.h"
+#include "../../Projects/Applications/States.h"
 
 class TopHatGuy : public Component, public Application {
 private:

@@ -7,6 +7,7 @@
 
 
 #include <iostream>
+#include <vector>
 #include "Square.h"
 #include "HiddenGrid.h"
 #include "../Applications/States.h"
@@ -20,6 +21,9 @@
 
 class Grid : public sf::Drawable, public States {
 private:
+    std::vector<sf::Text> letters;
+
+    static sf::Font font;
     HiddenGrid hidden;
     Square square;
     const int num_rows = 5;
@@ -43,6 +47,7 @@ public:
     std::vector<std::vector<Square>> board;
     Grid();
     void makeGrid();
+    void makeCoord();
     void setPosition(const sf::Vector2f& position);
     void setPosition(float x, float y);
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;

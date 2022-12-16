@@ -10,8 +10,8 @@ BouncingBall::BouncingBall() {
 }
 
 void BouncingBall::eventHandler(sf::RenderWindow &window, sf::Event event) {
-    window.setSize({1500,1200});
-    window.setFramerateLimit(120);
+    window.setSize({2600,1550});
+    window.setFramerateLimit(240);
 
     sf::CircleShape shape;
     shape.setRadius(80.0);
@@ -19,8 +19,12 @@ void BouncingBall::eventHandler(sf::RenderWindow &window, sf::Event event) {
     float xstep = 5;
     float ystep = 5;
 
-    while(window.isOpen()) {
+    while(window.isOpen() && gp::game_playing == BOUNCING_BALL) {
         sf::Event event;
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num1))
+            gp::game_playing = BALL;
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num3))
+            gp::game_playing = PONG;
         while(window.pollEvent(event)) {
             if(event.type == sf::Event::Closed)
                 window.close();
@@ -35,7 +39,7 @@ void BouncingBall::eventHandler(sf::RenderWindow &window, sf::Event event) {
             ystep = 5;
 
         shape.move(xstep,ystep);
-        window.clear(sf::Color::Black);
+        window.clear(sf::Color(173, 216, 230));
         window.draw(shape);
         window.display();
     }

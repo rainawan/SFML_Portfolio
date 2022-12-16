@@ -6,11 +6,14 @@
 
 Ball::Ball() {
     circle.setRadius(200.0);
-    circle.setFillColor(sf::Color::Green);
+    circle.setFillColor(sf::Color::Red);
 }
 
 void Ball::eventHandler(sf::RenderWindow &window, sf::Event event) {
-    while(window.isOpen()) {
+    window.setSize({2600,1550});
+    while(window.isOpen() && gp::game_playing == BALL) {
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Num2))
+                gp::game_playing = BOUNCING_BALL;
         sf::Event event;
         while(window.pollEvent(event)) {
             if(event.type == sf::Event::Closed)

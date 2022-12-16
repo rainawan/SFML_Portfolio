@@ -12,6 +12,7 @@
 #include "PokerScore.h"
 #include "CardHandScorer.h"
 #include "DrawableScore.h"
+#include "../../Projects/Applications/States.h"
 
 class Poker : public Component, public Application {
 public:

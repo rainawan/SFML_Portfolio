@@ -8,6 +8,8 @@
 #include "../../SFMLTools/Component.h"
 #include "../../SFMLTools/Application.h"
 #include <SFML/Graphics.hpp>
+#include "../Applications/States.h"
+
 
 class BouncingBall : public Component, public Application {
 private:
