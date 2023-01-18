@@ -1,5 +1,6 @@
-# SFML_Portfolio
-<p>Below is a collection of cross-platform projects I have designed and developed, providing a visual interface to multimedia components. I used a Simple and Fast Multimedia Library (SFML) and C++ to provide a graphics module.</p>
+# SFML_Portfolio 🎮
+#### Below is a collection of cross-platform projects I have designed and developed, providing a visual interface to multimedia components. I used a Simple and Fast Multimedia Library (SFML) and C++ to provide a graphics module.
+
 | Name | Demo 
 | ---- | ----
 | <p align="center">**Ball**<p> | <img width="500" src="https://github.com/rainawan/SFML_Portfolio/blob/507a0fd7b4160f37ed9b58a72257a5fe8772e648/images/ball.png" />
