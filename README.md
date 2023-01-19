@@ -1,5 +1,5 @@
 # SFML_Portfolio 🎮
-#### Below is a collection of cross-platform projects I have designed and developed, providing a visual interface to multimedia components. I used a Simple and Fast Multimedia Library (SFML) and C++ to provide a graphics module.
+<p> Below is a collection of cross-platform projects I have designed and developed that provide a visual interface to multimedia components. I used a Simple and Fast Multimedia Library (SFML) and C++ to create this graphics module, beginning from a simple circle shape and ending with an interactive battleship game.</p>
 
 | Name | Demo 
 | ---- | ----
